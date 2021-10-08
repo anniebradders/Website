@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+	p {
+		margin-top: 1%;
+		margin-left: 5%;
+	}
+
+	button {
+		margin-top: 5%;
+		color: black;
+	}
+
+</style>
+<head> 
+	<link rel="stylesheet" href="assessment.css" >
+	<title>QUIZ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>HOW WELL DO YOU KNOW ME?</h1>
+	</header>
+	<div id="video">
+		<video width="60%" height="80%" controls>
+			<source src="tiktok.mov">
+		</video>
+	</div>
+	<div class="centre" onclick="submit()">
+		<form id="quiz" action=" ">	
+			<p>WHAT TYPE OF MUSIC DO I LISTEN TO WHEN I CODE?</p>
+			<input type="radio" id="sound" name="ques1" value="1">
+			<label for="sound">Soundtrack</label><br>
+			<input type="radio" id="pop" name="ques1" value="0">
+			<label for="pop">Pop</label><br>
+			<input type="radio" id="metal" name="ques1" value="0">
+			<label for="metal">Heavy Metal</label><br>
+
+			<br><p>HOW MANY VIEWS DID THE VIDEO GET ON TIKTOK?</p>
+			<input type="radio" id="10" name="ques2" value="0">
+			<label for="ques2">50</label><br>
+			<input type="radio" id="5000" name="ques2" value=0>
+			<label for="ques2">5000</label><br>
+			<input type="radio" id="5000000" name="ques2" value="1">
+			<label for="ques2">500000</label><br>
+
+			<button id="submit" value="submit">Submit</button><br>
+
+			<p><span id="color">Your score is: <span id="score">_</span></span></p>
+		</form>
+	</div>
+	<div class="spot">
+		<iframe src="https://open.spotify.com/embed/playlist/134RvvWqwRvV4BJiHxtuaF" width="300" height="650" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="assessment.html">HOMEPAGE</a></li>
+			<li><a href="tattoo.html">TATTOOS MY PARENTS DONT KNOW ABOUT</a></li>
+			<li><a href="where.html">WHERE TO LOOK IF I GO MISSING</a></li>
+			<li><a href="reviews.html">REVIEWS</a></li>
+			<li><a href="quiz.html">QUIZ</a></li>
+		</ul>
+	</footer>
+<script src="assessment.js"></script>	
+</body>
+</html>
+</html>

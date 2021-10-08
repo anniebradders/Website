@@ -1,0 +1,230 @@
+body {
+	background-image: url("background.jpg");
+	height: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+* {
+	font-family: Franklin Gothic Medium, sans-serif;
+	font-stretch: extra-condensed;
+	letter-spacing: 3px;
+	color: white;
+	text-align: center;
+}
+
+
+li {
+	float: left;
+	border-right: 2px solid white;
+	height: 100%;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0.75%;
+	margin-left: -0.25%;
+	padding: 0;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+}
+
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 66px;
+	text-decoration: none;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a:hover {
+
+	background-color: #333333;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+}
+
+.img {
+  display: block;
+  width: 200%;
+  height: auto;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.box:hover .cover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+#central {
+	background-color: black;
+	padding-left: 10px;
+}
+
+img {
+	max-width:200%;
+	height:auto;
+}
+
+.left {
+	background-color: black;
+	width: 40%;
+	height: 70%;
+	margin-left: 3%;
+	margin-top: 3%;
+	position: fixed;
+}
+
+.meimg {
+		margin-left: -25%;
+		margin-top: 1%;
+		width: 200px;
+	}
+
+#righthand {
+	float: right;
+	width: 35%;		
+	height: 550px;
+	margin-right: 10px;
+}
+
+#lefthand {
+	float: left;
+	width: 35%;
+	height: 550px;
+	margin-left: 10px;
+}
+
+.img1 {
+	margin-left: -8%;
+	margin-top: 5% ;
+}
+
+.img2 {
+	margin-left: -7%;
+}
+
+.movetext {
+	margin-top: 50%;
+}
+
+div.center h1 {
+	margin: 0;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-size: 150px;
+}
+
+.right {
+	margin-right: -130%;
+	margin-left: 130%;
+	}
+
+#map{
+	height: 100%;
+}
+
+.text {
+	margin-top: 1%;
+	margin-right: -15%;
+}
+
+#color {
+	background-color: black;
+}
+
+#video {
+	float: left;
+	width: 35%;
+	margin-left: -5%;
+	margin-top: 0%;
+	position: fixed;
+}
+
+div.centre {
+	position: fixed;
+	height: 73%;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	background-color: black;	
+	position: fixed;
+}
+
+input {
+	color: black;
+}
+
+.dec {
+	text-decoration: underline;
+}
+
+.marquee {
+		overflow: hidden;
+		position: center;
+		width: 50%;
+	}
+
+.marquee p {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	transform: translateX(50%);
+}
+
+.spot {
+		float: right;
+		margin-right: 3%;
+		margin-top: -4%;
+	}
